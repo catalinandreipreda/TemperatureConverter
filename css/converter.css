@@ -1,0 +1,76 @@
+
+h2{
+    text-align: center;
+    color: blue;
+
+}
+body{
+    max-width: 100vw;
+    }
+
+form{
+    margin-inline: auto;
+    min-height: 5em;
+    max-width: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 2em;
+}
+form div{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input[type="button"]{
+    margin: .1em 0;
+    border: none;
+    border-radius: .9em;
+    padding: .5em 1em;
+    color: #efefef;
+    background-color: mediumblue;
+}
+form input[type="button"]:hover{
+    background-color: deepskyblue;
+}
+#conversion{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.instructions{
+    color: #efefef;
+    padding: .9rem;
+    width: 60%;
+    margin-inline: auto;
+    text-align: center;
+    background-color: dodgerblue;
+    border: 3px solid mediumblue;
+}
+
+
+table{
+    font-size: larger;
+    background: dodgerblue;
+}
+td{
+    color: white;
+    text-align: center;
+}
+
+th{
+    color: #efefef;
+    padding-inline: 1em;
+    background: mediumblue;
+}
+tr.even {background: lightskyblue}
+
+@media screen and (max-width: 600px){
+    #conversion{
+        width: 100%;
+    }
+
+}
